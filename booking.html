@@ -164,7 +164,7 @@
                     
                   </ul>
                   <li class="nav-item me-5">
-                    <a class="nav-link text-titlecase fw-bold" href="project.html">Projects</a>
+                    <a class="nav-link text-titlecase fw-bold" href="contact.html">Contact us</a>
                   </li>
                 </li>
                 
@@ -222,148 +222,58 @@
     
 
         <section class="contact-us-wrap">
-            <div class="container mt-5 pt-5" data-aos="fade-up">
-
-                  <div class="section-header offset-lg-2 mb-5">
-                    <h2 class="text-uppercase mb-3 left-pattern">Book now</h2>
-                    <h3 class="text-titlecase">Book Your Appointment</h3>
+          <div class="container mt-5 pt-5" data-aos="fade-up">
+            <div class="section-header offset-lg-2 mb-5">
+              <h2 class="text-uppercase mb-3 left-pattern">Book now</h2>
+              <h3 class="text-titlecase">Book Your Appointment</h3>
+            </div>
+        
+            <div class="row mt-3">
+              <div class="inquiry-item offset-md-2 col-md-8">
+                <form id="form" class="form-group flex-wrap">
+        
+                  <!-- Service Type -->
+                  <div class="col-lg-12 mb-3">
+                    <select class="form-select form-control" aria-label="Choose Service Type" required>
+                      <option value="" selected disabled>Choose Service Type</option>
+                      <option value="Buildings">Buildings</option>
+                      <option value="Interior">Interior</option>
+                      <option value="Exterior">Exterior</option>
+                      <option value="Renovate">Renovate</option>
+                      <option value="Industry">Industry</option>
+                      <option value="Plumbing">Plumbing</option>
+                    </select>
                   </div>
-              <div class="row mt-3">
-                <div class="inquiry-item offset-md-2 col-md-8">        
-                  <form id="form" class="form-group flex-wrap">
         
-                    <div class="col-lg-12 mb-3">
-                      <select class="form-select form-control" aria-label="Default select example">
-                        <option selected>Choose Service Type</option>
-                        <option value="1">Buildings </option>
-                        <option value="2">Interior</option>
-                        <option value="3">Exterior</option>
-                        <option value="4">Renovate</option>
-                        <option value="5">Industry</option>
-                        <option value="6">Road</option>
-                      </select>
-                    </div>
+                  <!-- Name & Email -->
+                  <div class="form-input col-lg-12 d-flex flex-wrap gap-3 mb-3">
+                    <input type="text" name="name" placeholder="Write Your Name Here" class="form-control ps-3" required>
+                    <input type="email" name="email" placeholder="Write Your Email Here" class="form-control ps-3" required>
+                  </div>
         
-                    <div class="col-lg-12 mb-3">
-                      <select class="form-select form-control" aria-label="Default select example">
-                        <option selected>Select Pricing Plan</option>
-                        <option value="1">Standard</option>
-                        <option value="2">Basic</option>
-                        <option value="3">Deluxe</option>
-                        <option value="4">Ultimate</option>
-                      </select>
-                    </div>
+                  <!-- Phone -->
+                  <div class="col-lg-12 mb-3">
+                    <input type="tel" name="phone" placeholder="Phone Number" class="form-control ps-3" required>
+                  </div>
         
-                    <div class="form-input col-lg-12 d-flex mb-3">
-                      <input type="text" name="email" placeholder="Write Your Name Here" class="form-control ps-3 me-3">
-                      <input type="text" name="email" placeholder="Write Your Email Here" class="form-control ps-3">
-                    </div>
-                    <div class="col-lg-12 mb-3">
-                      <input type="text" name="email" placeholder="Phone Number" class="form-control ps-3">
-                    </div>
-                    <div class="col-lg-12 mb-3">
-                      <textarea placeholder="Write Your Message Here" class="form-control ps-3" rows="8"></textarea>
-                    </div>
-                    <div class="d-grid">
-                      <button class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Submit</button>
-                    </div>
-                  </form>
-                </div>
+                  <!-- Message -->
+                  <div class="col-lg-12 mb-3">
+                    <textarea name="message" placeholder="Write Your Message Here" class="form-control ps-3" rows="6" required></textarea>
+                  </div>
+        
+                  <!-- Submit -->
+                  <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg text-uppercase btn-rounded-none">Submit</button>
+                  </div>
+                  
+                </form>
               </div>
             </div>
-          </section>
-        
-        <section id="price" class="my-5 py-5">
-            <div class="container mt-5 pt-5" data-aos="fade-up">
-                <h2 class="left-pattern">Price Plan</h2>
-                <h3>Choose Your Price Plan</h3>
-
-                <div class="row py-4  mt-3">
-                    <div class="col-lg-3 pb-4">
-                        <div class="py-5 plan-post text-center">
-
-                            <h6 class="mb-3 text-uppercase">standard</h6>
-
-                            <h3 class="heading-color display-5 fw-bold mb-5">$56.95</h3>
-                            <div class="price-option">
-                                <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                            </div>
-                            <a href="blog.html" class="btn-slide btn-medium btn-dark hover-slide-right text-uppercase mt-5">
-                                <span>Book Now</span>
-                              </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 pb-4">
-                        <div class="py-5 plan-post bg-dark text-center">
-
-                            <h6 class="text-white text-uppercase mb-3">basic</h6>
-
-                            <h3 class="text-white display-5 fw-bold mb-5">$79.50</h3>
-                            <div class="price-option">
-                                <p class="text-white"><span class="price-tick text-white">✓</span> Quisque rhoncus</p>
-                                <p class="text-white"><span class="price-tick text-white">✓</span> Lorem ipsum dolor</p>
-                                <p class="text-white"><span class="price-tick text-white">✓</span> Vivamus velit mir</p>
-                                <p class="text-white"><span class="price-tick text-white">✓</span> Velit mir</p>
-                                <p class="text-white"><span class="price-tick text-white">✓</span> Elit mir ivamus</p>
-                            </div>
-
-                            <a href="#" class="btn-slide btn-medium btn-light hover-slide-right mt-5">
-                                <span class="text-titlecase">Book Now
-                                </span>
-                              </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 pb-4">
-                        <div class="py-5 plan-post text-center">
-
-                            <h6 class="mb-3 text-uppercase">Deluxe</h6>
-
-                            <h3 class="heading-color display-5 fw-bold mb-5">$103.40</h3>
-                            <div class="price-option">
-                                <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                <p><span class="price-tick">✓</span> Ipsum dolor</p>
-                            </div>
-
-                            <a href="blog.html" class="btn-slide btn-medium btn-dark hover-slide-right text-uppercase mt-5">
-                                <span>Book Now</span>
-                              </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 pb-4">
-                        <div class="py-5 plan-post text-center">
-
-                            <h6 class="mb-3 text-uppercase">Ultimate</h6>
-
-                            <h3 class="heading-color display-5 fw-bold mb-5">$190.50</h3>
-                            <div class="price-option">
-                                <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                <p><span class="price-tick">✓</span> Lorem ipsum dolor</p>
-                                <p><span class="price-tick">✓</span> Vivamus velit mir</p>
-                                <p><span class="price-tick">✓</span> It ir ivamus</p>
-                                <p><span class="price-tick">✓</span> Elit mir ivamus</p>
-                                <p><span class="price-tick">✓</span> Quisque rhoncus</p>
-                                <p><span class="price-tick">✓</span> lit mir iamus</p>
-                            </div>
-
-                            <a href="blog.html" class="btn-slide btn-medium btn-dark hover-slide-right text-uppercase mt-5">
-                                <span>Book Now</span>
-                              </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+          </div>
         </section>
+        
+        
+       
 
        <section id="blog" class="padding-large position-relative">
           <div class="container">
@@ -596,7 +506,26 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  
+      <script>
+  document.getElementById("form").addEventListener("submit", function(e) {
+    e.preventDefault();
 
+    // Get form values
+    const service = document.querySelector("select").value;
+    const name = document.querySelector("input[name='name']").value;
+    const email = document.querySelector("input[name='email']").value;
+    const phone = document.querySelector("input[name='phone']").value;
+    const message = document.querySelector("textarea[name='message']").value;
+
+    // Construct WhatsApp message
+    const text = `Hello, I would like to book an appointment:\n\nService Type: ${service}\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`;
+
+    // Encode and redirect to WhatsApp
+    const whatsappURL = `https://wa.me/919365368599?text=${encodeURIComponent(text)}`;
+    window.open(whatsappURL, "_blank");
+  });
+</script>
 </body>
 
 </html>
